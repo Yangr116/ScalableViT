@@ -1,5 +1,5 @@
 # ScalableViT
-This is code of paper "ScalableViT: Rethinking the Context-oriented Generalization of Vision Transformer".
+This is the code of paper "ScalableViT: Rethinking the Context-oriented Generalization of Vision Transformer".
 
 ## Classification
 ### Dependency
@@ -153,3 +153,13 @@ tools/dist_test.sh ${config_file} ${checkpoint_file} ${gpu_num} --eval mIoU
 tools/dist_test.sh ${config_file} ${checkpoint_file} ${gpu_num} --aug-test --eval mIoU
 ```
 where the `${config_file}` is the config file saved in the `segmentation/configs` and the `${checkpoint_file}` is the weight file saved in the `detection/work_dirs`.
+
+# Citation
+```
+@article{ScalableVit,
+  title={Scalablevit: Rethinking the context-oriented generalization of vision transformer},
+  author={Yang, Rui and Ma, Hailong and Wu, Jie and Tang, Yansong and Xiao, Xuefeng and Zheng, Min and Li, Xiu},
+  journal={arXiv preprint arXiv:2203.10790},
+  year={2022}
+}
+```
