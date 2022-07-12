@@ -154,7 +154,7 @@ tools/dist_test.sh ${config_file} ${checkpoint_file} ${gpu_num} --aug-test --eva
 ```
 where the `${config_file}` is the config file saved in the `segmentation/configs` and the `${checkpoint_file}` is the weight file saved in the `detection/work_dirs`.
 
-# Citation
+## Citation
 ```
 @article{ScalableVit,
   title={Scalablevit: Rethinking the context-oriented generalization of vision transformer},
