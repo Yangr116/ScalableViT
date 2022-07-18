@@ -13,7 +13,7 @@ It currently includes code and models for the following tasks:
 **ScalableViT** (**Scalable** **Vi**sion **T**ransformer) inculdes Scalable Self-Attention (SSA) and Interactive Window-based Self-Attention (IWSA) mechanisms.
 SSA leverages two scaling factors to release dimensions of $query$, $key$, and $value$ matrices.
 IWSA establishes interaction between non-overlapping regions by re-merging independent $value$ tokens and aggregating spatial information from adjacent windows.
-By stacking the SSA and IWSA alternately, ScalableViT-S achieves $83.1\%$ acc on ImageNet-1K.
+By stacking the SSA and IWSA alternately, ScalableViT-S achieves $83.1 \%$ acc on ImageNet-1K.
 
 ![Architecture](/figures/framework.png)
 
@@ -63,8 +63,8 @@ By stacking the SSA and IWSA alternately, ScalableViT-S achieves $83.1\%$ acc on
 
 ## Citation
 ```latex
-@article{ScalableVit,
-  title={Scalablevit: Rethinking the context-oriented generalization of vision transformer},
+@article{ScalableViT,
+  title={ScalableViT: Rethinking the context-oriented generalization of vision transformer},
   author={Yang, Rui and Ma, Hailong and Wu, Jie and Tang, Yansong and Xiao, Xuefeng and Zheng, Min and Li, Xiu},
   journal={arXiv preprint arXiv:2203.10790},
   year={2022}
