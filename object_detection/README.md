@@ -8,7 +8,10 @@ pip install mmcv-full==1.2.7 -f https://download.openmmlab.com/mmcv/dist/cu110/t
 pip install mmdet==2.10.0
 ```
 ### Data preparation
-Please download the COCO2017 dataset and put it into the folder `detection/data` .
+Please download the COCO2017 dataset and put it into the folder `objection_detection/data`.
+```
+ln -s ${your_coco} data/coco
+```
 
 ### Detection Results on COCO2017
 #### RetinaNet
@@ -28,13 +31,13 @@ Please download the COCO2017 dataset and put it into the folder `detection/data`
 | ScalableViT-B | ImageNet-1K | 3x      | 94.9       | 349      | 48.9     | 43.6     |
 
 ### Training
-To train the RetinaNet and Mask R-CNN using ScalableViT-S,B,L as backbone on COCO2017, please run below code under the `detection` folder:
+To train the RetinaNet and Mask R-CNN using ScalableViT-S,B,L as backbone on COCO2017, please run below code under the `object_detection` folder:
 ```shell
  bash dist_train.sh configs/${config_file} 8
 ```
 where the `${config_file}` is the config file saved in the `configs`, including 10 files.
 ### Evaluation
-To evaluate the mAP of the RetinaNet and Mask R-CNN using ScalableViT-S,B,L as backbone on COCO2017, please run below code under the `detection` folder:
+To evaluate the mAP of the RetinaNet and Mask R-CNN using ScalableViT-S,B,L as backbone on COCO2017, please run below code under the `object_detection` folder:
 ```shell
 bash dist_test.sh configs/${config_file} ${checkpoint_file} 8 --eval mAP
 ```
