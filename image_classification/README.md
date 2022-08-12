@@ -30,11 +30,11 @@ Download and extract ImageNet train and val images from http://image-net.org/. T
 ### Classification Results on ImageNet-1K
 The results on ImageNet-1K as shown below:
 
-| Model         | #Param.(M) | FLOPs(G) | top1-acc |  weights | 
-| ------------- | ---------- | -------- | -------- | -------- |
-| ScalableViT-S | 32.4       | 4.2      | 83.1     |  google  |
-| ScalableViT-B | 81.9       | 8.6      | 84.1     |  google  |
-| ScalableViT-L | 104.9      | 14.7     | 84.4     |  google  |
+| Model         | #Param.(M) | FLOPs(G) | top1-acc |  weights |  logs|
+| ------------- | ---------- | -------- | -------- | -------- | -----|
+| ScalableViT-S | 32.4       | 4.2      | 83.1     |  [google](https://drive.google.com/file/d/1gCWsATBJmW3xwJaoCcxGO1Wbg51cPtzk/view?usp=sharing)  |  [logs](https://drive.google.com/file/d/1QcvWak1fKplbxF7FuwugUaBaCLOxMNVb/view?usp=sharing) |
+| ScalableViT-B | 81.9       | 8.6      | 84.1     |  --  |   --   |
+| ScalableViT-L | 104.9      | 14.7     | 84.4     |  --  |   --   |
 
 ### Training
 To train ScalableVit-S,B,L on ImageNet using 8 GPUs for 300 epochs, please run below code under the `image_classification` fold:
