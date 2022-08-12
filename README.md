@@ -3,11 +3,11 @@ This is the code of paper "ScalableViT: Rethinking the Context-oriented Generali
 
 It currently includes code and models for the following tasks:
 
-✅ Image Classification
+✅ [Image Classification](https://github.com/Yangr116/ScalableViT/tree/main/image_classification)
 
-✅ Object Detection
+✅ [Object Detection](https://github.com/Yangr116/ScalableViT/tree/main/object_detection)
 
-✅ Semantic Segmentation
+✅ [Semantic Segmentation](https://github.com/Yangr116/ScalableViT/tree/main/semantic_segmentation)
 
 ## Introduction
 **ScalableViT** (**Scalable** **Vi**sion **T**ransformer) inculdes Scalable Self-Attention (SSA) and Interactive Window-based Self-Attention (IWSA) mechanisms.
