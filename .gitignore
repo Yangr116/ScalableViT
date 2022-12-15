@@ -24,3 +24,6 @@ semantice_segmentation/__pycache__/
 
 .DS_Store
 *.sh
+
+./work_dirs/*
+./work_dirs

@@ -5,9 +5,9 @@ It currently includes code and models for the following tasks:
 
 ✅ [Image Classification](https://github.com/Yangr116/ScalableViT/tree/main/image_classification)
 
-✅ [Object Detection](https://github.com/Yangr116/ScalableViT/tree/main/object_detection)
+❌ [Object Detection](https://github.com/Yangr116/ScalableViT/tree/main/object_detection)
 
-✅ [Semantic Segmentation](https://github.com/Yangr116/ScalableViT/tree/main/semantic_segmentation)
+❌ [Semantic Segmentation](https://github.com/Yangr116/ScalableViT/tree/main/semantic_segmentation)
 
 ## Introduction
 **ScalableViT** (**Scalable** **Vi**sion **T**ransformer) inculdes Scalable Self-Attention (SSA) and Interactive Window-based Self-Attention (IWSA) mechanisms.

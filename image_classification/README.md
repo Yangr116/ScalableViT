@@ -33,8 +33,8 @@ The results on ImageNet-1K as shown below:
 | Model         | #Param.(M) | FLOPs(G) | top1-acc |  weights |  logs|
 | ------------- | ---------- | -------- | -------- | -------- | -----|
 | ScalableViT-S | 32.4       | 4.2      | 83.1     |  [google](https://drive.google.com/file/d/1gCWsATBJmW3xwJaoCcxGO1Wbg51cPtzk/view?usp=sharing)  |  [logs](https://drive.google.com/file/d/1QcvWak1fKplbxF7FuwugUaBaCLOxMNVb/view?usp=sharing) |
-| ScalableViT-B | 81.9       | 8.6      | 84.1     |  --  |   --   |
-| ScalableViT-L | 104.9      | 14.7     | 84.4     |  --  |   --   |
+| ScalableViT-B | 81.9       | 8.6      | 84.1     |  [google](https://drive.google.com/file/d/16MVmK4BGQpRH3Wz2VCOVzhTh2PFUFozH/view?usp=sharing)  |   [logs](https://drive.google.com/file/d/1MBInNLsxJhJKkZUatDwEh6o32exmM0Sq/view?usp=share_link)   |
+| ScalableViT-L | 104.9      | 14.7     | 84.4     |  [google](https://drive.google.com/file/d/17LLK5PSssMpepxeAt6-uKSd4aaV99u5X/view?usp=sharing)  |   [logs](https://drive.google.com/file/d/1lDYQPm2FAGvzYcneJaR_x-UZ6kd3Tho_/view?usp=share_link)   |
 
 ### Training
 To train ScalableVit-S,B,L on ImageNet using 8 GPUs for 300 epochs, please run below code under the `image_classification` fold:
